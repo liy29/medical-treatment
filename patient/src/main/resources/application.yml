@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 9000
 
 spring:
 #  datasource:
@@ -12,5 +12,5 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  type-aliases-package: com.sy.doctor.controller
+  type-aliases-package: com.sy.patient.controller
   mapper-locations: mappers/*.xml
