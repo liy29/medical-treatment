@@ -15,5 +15,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PatientApp {
     public static void main(String[] args) {
         SpringApplication.run(PatientApp.class,args);
+
     }
 }
